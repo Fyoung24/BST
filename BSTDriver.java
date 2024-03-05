@@ -1,3 +1,8 @@
+/** FY
+ * BST DRIVER
+ * AT
+ * 3/5/24
+ * **/
 public class BSTDriver {
     public static void main(String[] args) {
         BinarySearchTree<Integer, String> bst = new BinarySearchTree<>();
@@ -25,19 +30,19 @@ public class BSTDriver {
         System.out.println(bst.contains(8));
         System.out.println(bst.min());
         System.out.println(bst.max());
-        System.out.println(bst.remove(5));
+        System.out.println(bst.remove(5) + " was removed.");
         System.out.println(bst);
-        System.out.println(bst.remove(3));
+        System.out.println(bst.remove(3) + " was removed.");
         System.out.println(bst);
-        System.out.println(bst.remove(7));
+        System.out.println(bst.remove(7) + " was removed.");
         System.out.println(bst);
-        System.out.println(bst.remove(2));
+        System.out.println(bst.remove(2) + " was removed.");
         System.out.println(bst);
-        System.out.println(bst.remove(4));
+        System.out.println(bst.remove(4) + " was removed.");
         System.out.println(bst);
-        System.out.println(bst.remove(6));
+        System.out.println(bst.remove(6) + " was removed.");
         System.out.println(bst);
-        System.out.println(bst.remove(8));
+        System.out.println(bst.remove(8) + " was removed.");
         System.out.println(bst);
     }
 }
